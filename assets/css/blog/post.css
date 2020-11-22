@@ -54,7 +54,7 @@
 }
 
 .post-meta-tags .post-tag {
-    color: var(--brand-color);
+    color: #3f424c;
 }
 
 .post-meta-tags .post-tag + .post-tag::before {
