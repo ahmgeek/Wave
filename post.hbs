@@ -4,9 +4,6 @@
     <main class="site-main">
         {{#post}}
             <article class="{{post_class}} single">
-                <div class="single-media container medium{{#if og_description}} hidden-md hidden-lg hidden-xl{{/if}}">
-                    {{> post-media ratio="square"}}
-                </div>
                 {{#if og_description}}
                     {{> player}}
                 {{else}}
